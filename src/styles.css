@@ -1,0 +1,42 @@
+#portrait{
+    width:500px;
+    height: auto;
+}
+
+.links {
+    margin: 10px;
+    text-decoration: none;
+  }
+  .links:hover {
+    color: red;
+  }
+
+  #pictures{
+      display:flex;
+    flex-direction: row;
+  }
+  
+  .ayvPic{
+      display: flex;
+      flex-direction: column;
+      margin:10px;
+  }
+
+  .ayvPic img{
+    width:500px;
+    height: auto;
+  }
+
+  #biography{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+      margin:10px;
+  }
+
+  #biography img{
+      width:1000px;
+      height: auto;
+      margin: auto;
+  }
